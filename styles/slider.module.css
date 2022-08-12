@@ -64,7 +64,7 @@
         height: 70vh;
     }
     .sliderImg{
-        border-radius: 1.5rem;
+        border-radius: 1rem;
         
     }
     .nextBtn, .prevBtn{
@@ -79,7 +79,7 @@
         width: 20%;
         background: var(--clr-white);
         border:none;
-        border-radius: 1rem;    
+        border-radius: .75rem;    
         position: relative;
         overflow: hidden;
         aspect-ratio: 1/1;
