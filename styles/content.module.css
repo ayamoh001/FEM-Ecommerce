@@ -1,0 +1,132 @@
+.content{
+    padding: 1.25rem;
+}
+.text{
+
+}
+.company{
+    color: var(--clr-p-orange);
+    text-transform: uppercase;
+}
+.title{
+    padding: .75rem 0;
+    line-height: 2rem;
+}
+.description{
+    color: var(--clr-dark-grayish-blue);
+    line-height: 1.5rem;
+}
+.cta{
+    
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.afterDiscount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem
+}
+.price{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.discount{
+    background: var(--clr-p-pale-orange);
+    color: var(--clr-p-orange);
+    border: none;
+    border-radius: .25rem;
+    padding: .5rem .5rem;
+    font-weight: 700;
+}
+
+.originalPrice{
+    color: var(--clr-grayish-blue);
+    text-decoration: line-through;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+.inc, .dec{
+    background: var(--clr-light-grayish-blue);
+    border: none;
+    border-radius: .25rem;
+    padding: 1rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.count{
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: var(--clr-light-grayish-blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addBtn{
+    background: var(--clr-p-orange);
+    color: var(--clr-white);
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-weight: 700;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgb(255 125 26 / 50%);
+}
+.addBtn:hover{
+    opacity: .5;
+    color: var(--clr-p-pale-orange);
+}
+
+@media (min-width:426px) {
+    .content{
+        width: 50%;
+    }
+
+    .text{
+
+    }
+    .title{
+        font-size: 2.5rem;
+        line-height: unset;
+        padding-top: 1rem 0 1.25rem 0;
+    }
+    
+    .prices{
+        flex-direction: column;
+        gap: .5rem;
+        align-items: flex-start;
+        padding: 1.5rem 0;
+    }
+    .buttons{
+        flex-direction: row;
+    }
+    .amount{
+        width: 40%;
+    }
+    .addBtn{
+        width: 65%;
+    }
+}
