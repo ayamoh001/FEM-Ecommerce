@@ -1,17 +1,15 @@
-import {Images} from "../components/Images.jsx"
-import {Content} from "../components/Content.jsx"
 import Head from "next/head"
-
+import { Slider } from "@/components/Slider"
+import { Content } from "@/components/Content"
 
 const Product = () => {
-  
   return (
     <>
       <Head>
         <title>Frontend Mentor | E-commerce product page</title>
       </Head>
       <main className="container main">
-        <Images />
+        <Slider />
         <Content />
       </main>
     </>
